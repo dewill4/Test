@@ -43,6 +43,11 @@ class TestAibroModule(unittest.TestCase):
         """Test adding with zero."""
         result = add(5, 0)
         self.assertEqual(result, 5)
+    
+    def test_add_floats(self):
+        """Test adding float numbers."""
+        result = add(2.5, 3.7)
+        self.assertAlmostEqual(result, 6.2, places=1)
 
 
 if __name__ == "__main__":

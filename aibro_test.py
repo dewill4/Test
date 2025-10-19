@@ -20,13 +20,13 @@ def greet(name: str = "World") -> str:
     return f"Hello, {name}!"
 
 
-def add(a: int, b: int) -> int:
+def add(a: float, b: float) -> float:
     """
     Add two numbers together.
     
     Args:
-        a: First number
-        b: Second number
+        a: First number (int or float)
+        b: Second number (int or float)
         
     Returns:
         The sum of a and b

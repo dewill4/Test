@@ -27,5 +27,5 @@ python3 -m unittest test_aibro.py -v
 ### `greet(name: str = "World") -> str`
 Generate a greeting message for the given name (default: "World").
 
-### `add(a: int, b: int) -> int`
-Add two numbers together and return the result.
+### `add(a: float, b: float) -> float`
+Add two numbers (integers or floats) together and return the result.
